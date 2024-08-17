@@ -43,3 +43,25 @@ This project implements an E-KYC (Electronic Know Your Customer) process using c
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/e-kyc-implementation.git
+2. Install the required dependencies:
+bash
+#Copy code
+pip install -r requirements.txt,
+pip install -r requirements_deepface.txt
+
+#Set up the MySQL database:
+Execute the Query.sql file to create the necessary tables.
+Running the Application
+
+#Start the Streamlit application:
+bash
+
+Copy code
+streamlit run app.py
+Upload a PAN card image and follow the on-screen instructions to complete the E-KYC process.
+
+#Project Timeline
+Duration: July 2024 - August 2024
+
+#Contact
+For any queries or feedback, please feel free to reach out to Me.
